@@ -1,0 +1,42 @@
+
+; <<>> DiG 9.18.39-0ubuntu0.24.04.2-Ubuntu <<>> google.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 519
+;; flags: qr rd ra; QUERY: 1, ANSWER: 6, AUTHORITY: 4, ADDITIONAL: 9
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+; COOKIE: 688a97fc295565a87d3adf2c696913aedab87691ec095492 (good)
+;; QUESTION SECTION:
+;google.com.			IN	A
+
+;; ANSWER SECTION:
+google.com.		260	IN	A	172.253.122.101
+google.com.		260	IN	A	172.253.122.138
+google.com.		260	IN	A	172.253.122.139
+google.com.		260	IN	A	172.253.122.102
+google.com.		260	IN	A	172.253.122.113
+google.com.		260	IN	A	172.253.122.100
+
+;; AUTHORITY SECTION:
+google.com.		11	IN	NS	ns2.google.com.
+google.com.		11	IN	NS	ns3.google.com.
+google.com.		11	IN	NS	ns1.google.com.
+google.com.		11	IN	NS	ns4.google.com.
+
+;; ADDITIONAL SECTION:
+ns2.google.com.		122	IN	A	216.239.34.10
+ns1.google.com.		122	IN	A	216.239.32.10
+ns3.google.com.		122	IN	A	216.239.36.10
+ns4.google.com.		122	IN	A	216.239.38.10
+ns2.google.com.		122	IN	AAAA	2001:4860:4802:34::a
+ns1.google.com.		122	IN	AAAA	2001:4860:4802:32::a
+ns3.google.com.		122	IN	AAAA	2001:4860:4802:36::a
+ns4.google.com.		122	IN	AAAA	2001:4860:4802:38::a
+
+;; Query time: 455 msec
+;; SERVER: 10.30.7.126#53(10.30.7.126) (UDP)
+;; WHEN: Thu Jan 15 21:49:58 IST 2026
+;; MSG SIZE  rcvd: 411
+
